@@ -1,0 +1,29 @@
+{
+  "name": "phone",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-plugin-react": "^7.22.0",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdiep2705/telephone-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hdiep2705/telephone-app/issues"
+  },
+  "homepage": "https://github.com/hdiep2705/telephone-app#readme",
+  "description": ""
+}
